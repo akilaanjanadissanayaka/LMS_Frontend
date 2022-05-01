@@ -8,9 +8,10 @@ import {
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import Dashboard from "./pages/dashboard/Dashboard";
-import User from "./pages/user/User";
+import Profile from "./pages/profile/Profile";
 import Subject from "./pages/subject/Subject";
 import Report from "./pages/report/Report";
+import UserList from "./pages/userList/UserList";
 function App() {
   return (
     <BrowserRouter>
@@ -19,7 +20,8 @@ function App() {
       <Sidebar />
         <Routes>
           <Route exact path="/" element={<Dashboard/>}></Route>
-          <Route path="/users" element={<User/>}></Route>
+          <Route path="/users" element={<UserList/>}></Route>
+          <Route path="/profile" element={<Profile/>}></Route>
           <Route path="/subjects" element={<Subject/>}></Route>
           <Route path="/reports" element={<Report/>}></Route>
         </Routes>
