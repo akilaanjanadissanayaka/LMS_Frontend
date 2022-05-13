@@ -12,7 +12,7 @@ export const SidebarDataAdmin = [
     {
       icon: LineStyle,
       heading: "Dashboard",
-      linkto:"/",
+      linkto:"/dashboard",
     },
     {
       icon: PermIdentity,
@@ -40,7 +40,7 @@ export const SidebarDataTeacher = [
     {
       icon: LineStyle,
       heading: "Dashboard",
-      linkto:"/",
+      linkto:"/dashboard",
     },
     {
       icon: PermIdentity,
@@ -73,7 +73,7 @@ export const SidebarDataStudent = [
     {
       icon: LineStyle,
       heading: "Dashboard",
-      linkto:"/",
+      linkto:"/dashboard",
     },
     {
       icon: Storage,
