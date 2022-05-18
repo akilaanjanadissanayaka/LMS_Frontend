@@ -2,6 +2,8 @@ import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Topbar from "../../components/topbar/Topbar";
 import "./userList.css";
+import { Link } from "react-router-dom";
+
 const UserList = () => {
   return (
     <div className="body">
@@ -20,6 +22,9 @@ const UserList = () => {
               Students
             </button>
           </div>
+          <Link to="/register" className="link">
+            <button class="add-button">Add New User</button>
+          </Link>
           <div className="table-container">
             <h3>Lectures</h3>
             <table className="content-table">

@@ -71,3 +71,20 @@
   background-color: white;
   color: #3662a1;
 }
+.add-button {
+  float: right;
+  font-size: 16px;
+  max-width: 250px;
+  background-color: #305890;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 50px;
+  margin: 0;
+  border: 2px solid #305890;
+  cursor: pointer;
+}
+.add-button:hover {
+  background-color: #4075bf;
+  border: 2px solid #4075bf;
+}
