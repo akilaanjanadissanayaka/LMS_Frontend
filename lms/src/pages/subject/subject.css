@@ -4,13 +4,13 @@
 .add-button {
     /* float: right; */
     font-size: 16px;
-    max-width: 250px;
+    max-width: 200px;
     background-color: #305890;
     border-radius: 5px;
     color: white;
     font-weight: bold;
     padding: 8px 16px;
-    margin: 0;
+    margin: 5px;
     border: 2px solid #305890;
     cursor: pointer;
   }
@@ -60,7 +60,8 @@ form.search-bar::after {
   display: table;
 }
 .year-selection {
-  margin: 10px 0 5px 0;
+  margin: 10px;
+  
 }
 .year-selection label {
   color: dimgrey;
@@ -69,6 +70,7 @@ form.search-bar::after {
   border: 1px solid #3662a1;
   padding: 2px 22px;
   border-radius: 8px;
+  margin: 5px;
 }
 .year-selection select option:hover {
   background-color: #e8f8ff;

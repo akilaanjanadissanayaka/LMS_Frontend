@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Topbar from "../../components/topbar/Topbar";
 import "./subject.css";
+import { Link } from "react-router-dom";
 
 const Subject = () => {
   return (
@@ -21,14 +22,14 @@ const Subject = () => {
                   placeholder="Search by course name.. &#xF002;"
                 ></input>
               </form>
-
+              <Link to="/addnewcourse" className="link">
               <button
                 class="add-button"
-                onclick="location.href='<?php echo BASEURL . '/addNewCourse/index' ?>'"
+                onClick=""
               >
                 Add New Course
               </button>
-            </div>
+            </Link>
 
             <div class="year-selection" id="year-selection">
               <label for="year">Select the year</label>
@@ -42,45 +43,36 @@ const Subject = () => {
                 <option value="4">4th year</option>
               </select>
             </div>
-
+            </div>
           </div>
 
           <div class="table-container">
-        <table class="content-table">
-            <thead>
+            <table class="content-table">
+              <thead>
                 <tr>
-                    <th>No.</th>
-                    <th>Course name</th>
-                    <th>Year</th>
-                    <th>No.of students</th>
-                    <th>Action </th>
+                  <th>No.</th>
+                  <th>Course name</th>
+                  <th>Year</th>
+                  <th>No.of students</th>
+                  <th>Action </th>
                 </tr>
-            </thead>
+              </thead>
 
-            <tbody id="table-content">
-
-                    <tr>
-                    <td>123</td>
-                    <td>AUTOMATA</td>
-                    <td>2</td>
-                    <td>200</td>
-                    <td>
-
-                    <button type='button' class='button' onclick="">
-                   
-                    <span class='button__text'>View Course</span>
+              <tbody id="table-content">
+                <tr>
+                  <td>123</td>
+                  <td>AUTOMATA</td>
+                  <td>2</td>
+                  <td>200</td>
+                  <td>
+                    <button type="button" class="button" onclick="">
+                      <span class="button__text">View Course</span>
                     </button>
-
-                    </td>
-                    </tr>
-
-                
-                
-
-            </tbody>
-
-        </table>
-    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
