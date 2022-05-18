@@ -1,0 +1,88 @@
+.details-content .header-container header {
+    margin-left: 25px;
+  }
+  .details-content .header-container .course-selection .course-dropdown {
+    cursor: pointer;
+    display: block;
+    padding: 6px 12px;
+    color: rgba(0, 0, 0, 0.85);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-left: 25px;
+  }
+  .details-content .header-container .course-selection .course-dropdown:hover {
+    box-shadow: 0 0 5px #7697b3;
+  }
+  .details-content .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+  }
+  .details-content .button-container .add-btn {
+    padding: 6px 12px;
+    background-color: #2B4F82;
+    color: #FFF;
+    border-radius: 5px;
+    border: 2px solid #2B4F82;
+    font-size: large;
+    font-weight: 400;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+  }
+  .details-content .button-container .add-btn:hover {
+    background-color: #1d3557;
+    border: 2px solid #1d3557;
+  }
+  .details-content .course-label {
+    font-weight: 400;
+    color: #2B4F82;
+    margin-left: 25px;
+    margin-bottom: 16px;
+  }
+  .details-content .badge-details-container {
+    height: 70vh;
+    overflow: auto;
+  }
+  .details-content .badge-details-container .badge-details .badges {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .details-content .badge-details-container .badge-details .badges .fa-trash {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    color: #dd5555;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  .details-content .badge-details-container .badge-details .badges .badge {
+    display: grid;
+    width: 90%;
+    margin: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+  }
+  .details-content .badge-details-container .badge-details .badges .badge img {
+    width: 10rem;
+    justify-self: center;
+  }
+  .details-content .content-message {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3rem;
+  }
+  .details-content .content-message .fa-spinner {
+    font-size: 40px;
+    color: grey;
+    align-self: center;
+    margin-bottom: 1rem;
+  }
+  
