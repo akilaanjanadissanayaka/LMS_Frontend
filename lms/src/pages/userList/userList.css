@@ -1,3 +1,73 @@
 .user{
   flex:4;
 }
+.table-container {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.content-table {
+  border-collapse: collapse;
+  width: 85%;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+}
+
+.content-table thead tr {
+  background-color: #274774;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table th {
+  padding: 12px 15px;
+  font-weight: bold;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:hover {
+  background-color: #fff;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #274774;
+}
+
+.user-type {
+  border: none;
+  margin-left: 10px;
+  width: fit-content;
+  display: inline-flex;
+  border-radius: 5px;
+}
+
+.type {
+  margin: 1px;
+  padding: 7px 10px 7px 10px;
+  background-color: #274774;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #3662a1;
+}
+.type:hover {
+  background-color: white;
+  color: #3662a1;
+}
