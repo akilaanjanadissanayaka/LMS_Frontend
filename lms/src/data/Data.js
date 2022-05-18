@@ -21,13 +21,8 @@ export const SidebarDataAdmin = [
     },
     {
       icon: MenuBook,
-      heading: "Subjects",
+      heading: "Courses",
       linkto:"/subjects",
-    },
-    {
-      icon: BarChart,
-      heading: "Reports",
-      linkto:"/reports",
     },
     {
       icon: VerifiedUser,

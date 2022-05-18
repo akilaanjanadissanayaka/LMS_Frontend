@@ -35,7 +35,7 @@ const Dashboard = (props) => {
       <div className="container">
         <Sidebar />
         <div className="dashboard">
-          <h4>Hello {data && `${data.firstName} ${data.lastName}`}</h4>
+          {/* <h4>Hello {data && `${data.firstName} ${data.lastName}`}</h4> */}
 
           {data &&
             data.roles &&
@@ -46,7 +46,7 @@ const Dashboard = (props) => {
               </Button>
             )}
           <hr />
-          <FeaturedInfo />
+          <FeaturedInfo/>
           <Charts
             data={userData}
             title="User Analytics"

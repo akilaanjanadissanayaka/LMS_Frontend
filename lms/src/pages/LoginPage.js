@@ -65,7 +65,7 @@ const LoginPage = ({ loading, error, ...props }) => {
               <div className="card fat">
                 <div className="card-body">
                   <h4 className="card-title">Login</h4>
-
+{/* onsubmit then, call to {handleSubmit}*/}
                   <form
                     className="my-login-validation"
                     onSubmit={handleSubmit}

@@ -27,7 +27,7 @@ const Topbar = () => {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">INSTITUTE-LMS</span>
+          <span className="logo">LMS</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">

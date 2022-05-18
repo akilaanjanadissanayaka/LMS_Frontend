@@ -14,6 +14,9 @@ import Report from "./pages/report/Report";
 import UserList from "./pages/userList/UserList";
 import LoginPage from "./pages/LoginPage";
 import TestPage from "./pages/testpage/TestPage";
+import Badges from "./pages/badges/Badges";
+import Register from "./pages/register/Register";
+import NewCourse from "./pages/newcourse/NewCourse";
 
 function App() {
 
@@ -30,7 +33,9 @@ function App() {
           <Route path="/users" element={<UserList />}></Route>
           <Route path="/profile" element={<Profile />}></Route>
           <Route path="/subjects" element={<Subject />}></Route>
-          <Route path="/reports" element={<Report />}></Route>
+          <Route path="/badges" element={<Badges />}></Route>
+          <Route path="/register" element={<Register />}></Route>
+          <Route path="/addnewcourse" element={<NewCourse />}></Route>
         </Routes>
       {/* </div> */}
     </BrowserRouter>
